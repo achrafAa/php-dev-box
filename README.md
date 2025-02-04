@@ -17,7 +17,7 @@ A flexible Docker-based PHP development environment that allows you to:
 
 1. Clone this repository:
 ```bash
-git clone [repository-url]
+git clone git@github.com:achrafAa/php-dev-box.git
 ```
 
 2. Select PHP version:
