@@ -1,1 +1,3 @@
 .DS_Store
+# Ignore all directories (extension folders created by phpdev create)
+*/

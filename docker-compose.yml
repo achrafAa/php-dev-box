@@ -1,8 +1,9 @@
 services:
-  php-build-container:
-    build: .
-    container_name: php-build-container
+  php-dev-box:
+    image: aachraf/php-dev-box
+    container_name: php-dev-box
     volumes:
-      - .:/usr/src/php
+      - ./src:/workdir
+    working_dir: /workdir
     tty: true
     stdin_open: true
